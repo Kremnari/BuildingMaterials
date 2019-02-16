@@ -1,0 +1,42 @@
+local cc = buildM.generators.create_component_from_ingredients
+cc({name = "burner-unit", tier=0, ings = {{"stone-brick", 3}}, iconName = "burner-unit-0" })
+cc({name = "boiler-component", tier=0, ings = {{"stone", 5}}, iconName = "boiler-component-0"  })
+cc({name = "industrial-engine", tier=0, ings = {{"iron-plate", 7}, {"iron-gear-wheel", 5}, {"pipe", 3} }  })
+cc({name = "generator-coils", tier=0, ings = {{"copper-cable", 6}}  })
+cc({name = "cnc-equipment", tier=0, ings = {{"iron-plate", 3}, {"iron-gear-wheel", 3}, {"basic-circuit-board", 2}}  })
+cc({name = "basic-mining-equipment", tier=0, ings = {{"iron-gear-wheel", 2}, {"iron-plate", 2}} })
+cc({name = "scipack-consumer", tier=0, ings = {{"basic-circuit-board", 3}}  })
+
+cc({name = "burner-unit", tier=1, ings = {{"iron-plate", 2}}, override = true })
+cc({name = "boiler-component", tier=1, ings = {{"iron-plate", 3}}, override = true  })
+cc({name = "industrial-engine", tier=1, ings = {{"iron-plate", 4}, {"iron-gear-wheel", 4}, {"pipe", 2}}, override = true  })
+cc({name = "smelting-vessel", tier=1, ings = {{"steel-plate", 4}} })
+cc({name = "heavy-duty-motor", tier=1, ings = {{"copper-cable", 5}, {"iron-plate", 2}, {"steel-plate", 4}}  })
+cc({name = "mining-drill", tier=1, ings = {{"heavy-duty-motor", 1}, {"steel-plate", 10}, {"steel-gear-wheel", 2}} })
+cc({name = "transmission-tower", tier=1, ings = {{"steel-plate", 10}, {"copper-cable", 6}}  })
+cc({name = "scanning-array", tier=1, ings = {{"basic-circuit-board", 10}, {"copper-cable", 6}, {"steel-plate", 4}}  })
+cc({name = "fluid-tank", tier=1, ings = {{"iron-plate", 5}, {"steel-plate", 2}} })
+
+cc({name = "transformer-coil", tier=2, ings = {{"copper-cable", 10}, {"iron-plate", 2}} })
+cc({name = "distillation-chamber", tier=2, ings = {{"copper-plate", 10}, {"steel-plate", 3}}  })
+cc({name = "heater-core", tier=2, ings = {{"copper-cable", 4}, {"copper-plate", 3}}  })
+cc({name = "voltage-regulator", tier=2, ings = {{"transformer-coil", 2}, {"plastic-bar", 5}}  })
+cc({name = "battery-array", tier=2, ings = {{"battery", 5}, {"electronic-circuit", 2}}  })
+cc({name = "reinforced-structure", tier=2, ings = {{"steel-plate", 5}} })
+
+cc({name = "pump-shaft-drill", tier=3, ings = {{"iron-stick", 20}, {"electric-engine-unit", 2}} })
+cc({name = "mixing-vat", tier=3, ings = {{"steel-plate", 3}, {"iron-plate", 2}}  })
+cc({name = "weight-balance", tier=3, ings = {{"stone", 20}, {"steel-plate", 5}}  })
+cc({name = "photo-cell-array", tier=3, ings = {{"electronic-circuit", 10}, {"steel-plate", 2}}  })
+cc({name = "counter-balanced-engine", tier=3, ings = {{"steel-plate", 3}, {"electric-engine-unit", 2}} })
+cc({name = "adv-cnc-equipment", tier=3, ings = {{"steel-plate", 5}, {"steel-gear-wheel", 3}, {"advanced-circuit", 2}}  })
+cc({name = "effects-processing-unit", tier=3, ings = {{"electronic-circuit", 10}} })
+
+cc({name = "turbine-unit", tier=4, ings = {{"steel-plate", 10}, {"iron-gear-wheel", 5}, {"copper-plate", 10}} })
+cc({name = "radiation-shielding", tier=4, ings = {{"concrete", 100}, {"copper-plate", 20}}  })
+cc({name = "reaction-chamber", tier=4, ings = {{"steel-plate", 100}}  })
+cc({name = "regulation-system", tier=4, ings = {{"advanced-circuit", 100}}  })
+
+
+cc({name = "gantry-system", tier=5, ings = {{"steel-plate", 100}, {"concrete", 100}, {"electric-engine-unit", 50}}  })
+cc({name = "control-tower", tier=5, ings = {{"processing-unit", 100}, {"concrete", 100}, {"steel-plate", 100}}  })
