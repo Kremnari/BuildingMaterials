@@ -1,5 +1,5 @@
 # BuildingMaterials
-A mod for Factorio focusing on making buildings more expensive with their own intermediates
+A mod for Factorio focused on changing buildings to be more expensive with their own intermediates
 
 ## Building Composition
 
