@@ -1,0 +1,27 @@
+local cc = buildM.generators.create_component_from_ingredients
+
+--[[
+cc({name = "burner-omniphlog-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "omni-plant-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "omni-mutator-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "omnismelter-1-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "omnismelter-2-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "omnismelter-3-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "omnismelter-4-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "omnization-chamber-1-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "omnization-chamber-1-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "omnization-chamber-1-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "omnization-chamber-1-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "crystallomnizer-1-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "crystallomnizer-2-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "crystallomnizer-3-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "crystallomnizer-4-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "omnifurnace-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "omnictor-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "omnium-reactor-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "omnium-turbine-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "research-facility-1-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "research-facility-2-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "research-facility-3-component", tier=0, ings = {{"stone", 3}} })
+cc({name = "research-facility-4-component", tier=0, ings = {{"stone", 3}} })
+--]]

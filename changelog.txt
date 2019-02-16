@@ -1,0 +1,63 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.16.8
+Date: 26 May 18
+  Changes:
+  	- Reduced costs to handcraft Materials class 0
+  	- Added omniwood as a class 0 precomposite (I'll add an omni-extension later)
+---------------------------------------------------------------------------------------------------
+Version: 0.16.7
+Date: 26 May 18
+  Changes:
+    - Added ScienceCostTweaker recipes (using his components)
+    - Fixed more recipe bugs
+---------------------------------------------------------------------------------------------------
+Version: 0.16.6
+Date: 16 May 18
+  Changes:
+    - Added several possible burner phase options (view in settings tab)
+    - Fixed some progression issues
+  Settings:
+    - Burner-Stage
+    - ------------
+      - Normal:
+        - No changes, BM class 0 is used in buildings, no automation until you research it
+      - Skip Burner:
+        - Prevents added BM-0 to buildings, but still sets components as appropriate
+      - Basic Automation:
+        - Ensures you have basic inserters, belts, and splitters, but not cost reductions
+      - SP0:  REQUIRES AAI-Industries
+        - Gives a burner lab to start.  Sets basic automation and BM Class 1 research to require SP0
+---------------------------------------------------------------------------------------------------
+Version: 0.16.5
+Date: 21 Apr 18
+  Changes:
+    - Change deconstruction mechanics, added deconstruction yard
+    - Fixed Changelog format
+  Bugfixes:
+    - Cleaned up decompositions
+  Todo:
+    - Graphics
+    - More mod recipes
+  Potato:
+    - Moar potatoes
+  Instructions:
+    - Testing
+      1.) Testing 2
+---------------------------------------------------------------------------------------------------
+Version: 0.16.4
+  Changes:
+    - fixed Tier 0 progression
+    - added some components for Bobs and Angels Buildings
+    - added deconstruction recipes
+    - modified auto-components to use previous components instead of buildings
+    - changed cnc-fluids to use bobs water pumps for the moment
+    - no recipe balancing yet
+---------------------------------------------------------------------------------------------------
+Version: 0.16.3
+  Changes:
+    - hopefully finally found the fix for people not naming their recipes after the building (usually a hypen inconsistency)
+---------------------------------------------------------------------------------------------------
+Version: 0.16.2
+  Changes:
+    - added temp recipes for bobs buildings
+    - fixed intermods with omni-compression/marathon (*should* work now)

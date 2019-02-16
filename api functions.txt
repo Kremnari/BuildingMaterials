@@ -1,0 +1,14 @@
+
+## buildM.updater.skip_recipe (recipe name)
+Skips the recipe when creating building components.  Ideally, only used when you're mod adds it's on BM recipes
+
+## buildM.updater.skip_building (building name)
+Ends up like above, but starts with an entity name and searches through items/recipes (more time consuming)
+
+## buildM.researcher.findTechUnlock (recipe name)
+Searches unlock-recipes in techs
+
+## buildM.researcher.findTechLevel (recipe name)
+Returns tech level (# science packs, capped at 5)
+
+## buildM.researcher.getRecipeFor
